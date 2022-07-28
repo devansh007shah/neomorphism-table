@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-box {
+  height: 800px;
+  width: 350px;
+  background: linear-gradient(
+    to top left,
+    rgb(147, 238, 238),
+    rgb(73, 74, 180)
+  );
+  border-radius: 50px;
+  box-shadow: 0 0 20px darkgray;
+  margin: 50px auto;
+  position: relative;
+}
+
+.sec-1 {
+  display: flex;
+  height: 170px;
+  width: 350px;
+}
+
+.sec-1 .icon {
+  margin: 30px 0 0 30px;
+  height: 100px;
+  width: 20%;
+}
+
+.sec-1 .circle {
+  font-size: 40px;
+
+  text-shadow: 2px 2px 10px whitesmoke, 4px 4px 10px rgba(245, 245, 245, 0.836),
+    6px 6px 10px rgba(245, 245, 245, 0.637),
+    8px 8px 10px rgba(245, 245, 245, 0.308), -2px -2px 10px whitesmoke,
+    -4px -4px 10px rgba(245, 245, 245, 0.815),
+    -6px -6px 10px rgba(245, 245, 245, 0.5),
+    -8px -8px 10px rgba(245, 245, 245, 0.26), 2px -2px 10px whitesmoke,
+    4px -4px 10px rgba(245, 245, 245, 0.836),
+    6px -6px 10px rgba(245, 245, 245, 0.562),
+    8px -8px 10px rgba(245, 245, 245, 0.26), -2px 2px 10px whitesmoke,
+    -4px 4px 10px rgba(245, 245, 245, 0.815),
+    -6px 6px 10px rgba(245, 245, 245, 0.582),
+    -8px 8px 10px rgba(245, 245, 245, 0.281);
+  color: aquamarine;
+}
+
+.sec-1 .name-box {
+  height: 100px;
+  width: 30%;
+  margin: 30px 0 0 5px;
+}
+
+.first-name {
+  font-weight: bold;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.location {
+  font-size: 10px;
+  font-weight: 100;
+}
+.sec-1 .next-button {
+  height: 100px;
+  width: 50%;
+  text-align: center;
+  line-height: 100px;
+  padding: 0 0 0 25px;
+  color: white;
+}
+
+/* REG_BOX_STARTS */
+
+.reg-box {
+  height: 630px;
+  width: 350px;
+  background-color: rgb(234, 241, 248);
+  border-radius: 50px;
+  box-shadow: 0 -10px 7px darkblue;
+  padding: 100px 30px 0 30px;
+}
+
+.reg-box .text-head {
+  margin: 0 0 30px 25px;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.reg-box .input-box {
+  margin: 10px 20px 0 0;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+.yourname-box {
+  height: 55px;
+  width: 300px;
+  font-family: "Finlandica", sans-serif;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  box-shadow: inset 3px 1px 2px darkgray, inset -1px -1px 2px rgb(199, 199, 199);
+  border-radius: 20px 20px;
+  padding: 20px 0 0 15px;
+  color: rgb(75, 75, 75);
+  font-weight: 300;
+}
+
+.tick-box {
+  margin: 20px 0 0 50px;
+  font-family: "Finlandica", sans-serif;
+  font-size: 14px;
+  color: rgb(36, 35, 35);
+  font-weight: 400;
+}
+
+.tick-box input {
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+}
+
+.tick-box span {
+  margin: 0 0 0 10px;
+}
+
+.tick-box a,
+.start-box a {
+  text-decoration: dashed;
+  color: black;
+}
+.start-box {
+  height: 40px;
+  width: 150px;
+  border-radius: 20px 20px;
+  margin: 45px 0 0 65px;
+  box-shadow: 5px -5px 10px darkgray, 5px 5px 10px darkgray;
+  border: 1px solid white;
+  background: linear-gradient(rgb(147, 238, 238), rgb(73, 74, 180));
+
+  font-family: "Finlandica", sans-serif;
+
+  font-weight: 700;
+  font-size: 25px;
+  color: whitesmoke;
+}
+.start-box a {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.upload-box {
+  position: absolute;
+  top: 170px;
+  left: 170px;
+
+  transform: scale(10);
+  color: rgb(17, 125, 219);
+  text-shadow: 0 -3px 5px white;
+}
